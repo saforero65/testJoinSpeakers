@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor-infoSRT {
+    display: none;
+    margin-right: 2rem;
+    width: 30%;
+}
+
+#contenedor-infoSpeaker {
+    width: 70%;
+    height: 500px;
+    overflow-y: scroll;
+    display: none;
+}
+
+#lista button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2em;
+    margin: 1rem auto;
+    padding: 5px;
+    text-align: center;
+    width: 90%;
+}
+
+#lista button:hover {
+    background-color: #ccc;
+}
+
+.container-info {
+    display: flex;
+    width: 100%;
+}
+
+
+.card {
+    color: #fff;
+}
+
+.card-title {
+    color: #fff;
+    font-weight: 600 !important;
+}
+
+.card-title span {
+    font-weight: 400 !important;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2em;
+    margin: 1rem auto;
+    padding: 5px;
+    text-align: center;
+    width: 90%;
+}
+
+.editar {
+    background-color: red;
+    width: 100px;
+}
+
+.descargar {
+    background-color: green;
+    width: 100px;
+}
+
+.descargar:hover {
+    background-color: #ccc;
+}
+
+.editar:hover {
+    background-color: #ccc;
+}
+
+.checkbox-inline {
+    margin-left: 10px;
+    display: block;
+
+}
+
+#unir {
+    background: rgb(0, 200, 33);
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
+
+}
+
+#unir:hover {
+    background-color: #ccc;
+}
