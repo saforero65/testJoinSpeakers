@@ -83,7 +83,7 @@ mostrarDatosSpeaker = (id) => {
             <div class="card">
                 <div class="card-body">
                 <div style="display:flex;align-items: center;">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SPEAKER: <span id="speaker">${talento}</span> TOTAL SEGMENTOS: <span>${totalSegmentos} </span> </h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">SPEAKER: <span id="speaker">${talento}</span> TOTAL SEGMENTOS: <span>${totalSegmentos} </span> </h5>
                 <a class="btn editar" id="editar-${talento}">Editar</a>
                 <a class="btn descargar" id="descargar-${talento}">Descargar</a>
                 </div>
